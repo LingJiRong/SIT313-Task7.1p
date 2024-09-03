@@ -1,0 +1,43 @@
+.home-container {
+    padding: 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .dev-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    margin: 0 10px;
+    padding: 5px;
+    flex: 1;
+  }
+  
+  .buttons-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .post-button, .login-button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .post-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .login-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
